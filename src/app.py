@@ -24,10 +24,19 @@ std_2 = Students('Chris', 'Pratt', 15)
 std_3 = Students('Tom', 'Holland', 20)
 
 
+#<---- To Get The Roll Number Of Each Students ---->
+
+#print(std_1.roll_num)
+#print(std_2.roll_num)
+#print(std_3.roll_num)
+
+#<---- To Get The Fullname Of Each Students---->
 
 #print(Students.fullname(std_1)) / #print(std_1.fullname())
 #print(Students.fullname(std_2)) / #print(std_2.fullname())
 #print(Students.fullname(std_3)) / #print(std_3.fullname())
+
+#<----To Get The Email OF The Each Students---->
 
 #print(Students.email(std_1)) / #print(std_1.email())
 #print(Students.email(std_2)) / #print(std_2.email())
